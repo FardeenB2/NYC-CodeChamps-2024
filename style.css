@@ -26,3 +26,56 @@ body {
 
 }
 
+#navbar_logo {      /*theCoderSchool title at the top of the navigation menu*/
+    background-image: linear-gradient(to bottom, #4ae257 0%, #31ffad 100%);
+    background-size: 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: flex;
+    align-items: center;
+    font-size: 2rem;  
+}
+
+.fa-code {  
+    margin-right: 0.5rem;
+}
+
+.navbar_menu {          /*overarching unordered list that contains all the items (headquarters hub, the hacker lab, faqs)*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar_item {          /*headquarers, the hacker lab, faqs*/
+    height: 80px;
+}
+
+.navbar_link {      /*The URL associated when clicking on the above items*/
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-decoration: none;  /*gets rid of the underline of the URL*/
+    padding: 0 2rem;
+    
+}
+
+.navbar_button {
+    display: flex;
+
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    background: #19cc66;
+    color: #ffffff;
+
+}
+
+.navbar_button:hover {
+    background: #a8eb3c;
+    transition: all 0.4s ease;
+}
+
+
+

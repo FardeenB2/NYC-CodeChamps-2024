@@ -1,16 +1,15 @@
 body {
     margin: 0;          /*border fill*/
     font-family: 'Kumbh Sans', sans-serif;
-
+    background: radial-gradient( black, rgb(27, 8, 27));
 }
 
 .navbar {
-    background: #000000;
     height: 80px;
     display: flex;          /*enables this navbar container to utilize CSS flexbox properties like justify content and align items */
     justify-content: center;        /*centers along the horizontal x-axis */
     align-items: center;            /*centers along the vertical y-axis*/
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: sticky;
     z-index: 999;       /*Note: if the z-index of the element is larger, it will be in front of any element with a smaller z-index. Good for a sticky header */
 
@@ -155,12 +154,33 @@ body {
     }
 }
 
+/*-------- logo ---------*/
+
+.tcs-logo-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center; 
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding:  0px 0px 0px 0px;
+}
+
+.tcs-logo {
+    width: 400px;
+    height: 400px;
+    background-image: url("/TCS-Code-Champs/assets/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /*-------- slogans section ---------*/
 
 .slogans_container {
     display: grid;
-    background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%);
+    /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
 
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -168,6 +188,7 @@ body {
     margin: 0 auto;
     height: 90vh;
     padding: 0 50px;
+    margin-bottom: 50px;
 }
 
 .slogans_content h1 {
@@ -223,5 +244,4 @@ body {
 .get_started_btn:hover:after {    
     width: 100%;    /*how much of button is covered by transition effect*/
 }
-
 

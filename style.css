@@ -4,105 +4,6 @@ body {
     background: radial-gradient(black, rgb(27, 8, 27));
 }
 
-/*  */
-
-.lines {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    margin: auto;
-    width: 90vw;
-    display: table;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.line {
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: 50%;
-}
-
-#l1 {
-    background: linear-gradient(black, rgb(174, 174, 174));
-    content: '';
-    position: absolute;
-    height: 5vh;
-    top: -50%;
-    margin-left: -50%;
-    animation-delay: 1.5s;
-    overflow: hidden;
-    animation-name: drop;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
-}
-
-#l4 {
-    top: 0%;
-    background: rgba(255, 255, 255, 0.1);
-    position: absolute;
-}
-
-#l5 {
-    top: 0%;
-    margin-left: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    position: absolute;
-}
-
-#l6 {
-    top: 0%;
-    margin-left: -50%;
-    background: rgba(255, 255, 255, 0.1);
-    position: absolute;
-}
-
-#l2 {
-    background: linear-gradient(black, rgb(174, 174, 174));
-    content: '';
-    position: absolute;
-    height: 5vh;
-    top: -50%;
-    animation-delay: 2s;
-    overflow: hidden;
-    animation-name: drop;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
-}
-
-#l3 {
-    background: linear-gradient(black, rgb(174, 174, 174));
-    content: '';
-    position: absolute;
-    height: 5vh;
-    top: -50%;
-    margin-left: 50%;
-    animation-delay: 2.5s;
-    overflow: hidden;
-    animation-name: drop;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
-}
-    
-@keyframes drop {
-    0% {
-        top: -50%;
-    }
-    100% {
-        top: 100%;
-    }
-}
-
-/*  */
-
 .navbar {
     height: 80px;
     display: flex;          /*enables this navbar container to utilize CSS flexbox properties like justify content and align items */
@@ -235,6 +136,136 @@ body {
     }
 }
 
+/* ANIMATION */
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
+    display: table;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line {
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+}
+
+#l1 {
+    background: linear-gradient(black, rgb(174, 174, 174));
+    content: '';
+    position: absolute;
+    height: 5vh;
+    top: -50%;
+    margin-left: -50%;
+    animation-delay: 1.5s;
+    overflow: hidden;
+    animation-name: drop;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
+}
+
+#l4 {
+    top: 0%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+}
+
+#l5 {
+    top: 0%;
+    margin-left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+}
+
+#l6 {
+    top: 0%;
+    margin-left: -50%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+}
+
+#l2 {
+    background: linear-gradient(black, rgb(174, 174, 174));
+    content: '';
+    position: absolute;
+    height: 5vh;
+    top: -50%;
+    animation-delay: 2s;
+    overflow: hidden;
+    animation-name: drop;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
+}
+
+#l3 {
+    background: linear-gradient(black, rgb(174, 174, 174));
+    content: '';
+    position: absolute;
+    height: 5vh;
+    top: -50%;
+    margin-left: 50%;
+    animation-delay: 2.5s;
+    overflow: hidden;
+    animation-name: drop;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
+}
+    
+@keyframes drop {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+.rocket {
+    background-image: url("/assets/rocket.png");
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2000px;
+    top: 200px;
+    animation: rocketShipRotate 10s linear 0s infinite;
+    z-index: 10;
+}
+
+@keyframes rocketShipRotate {
+    0% {
+        left: 2000px;
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(45deg);
+    }
+    40% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        left: -500px;
+        transform: rotate(15deg);
+    }
+}
+
 /*-------- logo ---------*/
 
 .tcs-logo-container {
@@ -255,6 +286,7 @@ body {
     background-image: url("/assets/tcslogo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 20;
 }
 
 /*-------- slogans section ---------*/

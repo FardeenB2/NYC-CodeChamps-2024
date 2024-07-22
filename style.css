@@ -1,7 +1,7 @@
 body {
     margin: 0;          /*border fill*/
     font-family: 'Kumbh Sans', sans-serif;
-    background: radial-gradient( black, rgb(27, 8, 27));
+    background: radial-gradient(black, rgb(27, 8, 27));
 }
 
 .navbar {
@@ -9,10 +9,10 @@ body {
     display: flex;          /*enables this navbar container to utilize CSS flexbox properties like justify content and align items */
     justify-content: center;        /*centers along the horizontal x-axis */
     align-items: center;            /*centers along the vertical y-axis*/
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     z-index: 999;       /*Note: if the z-index of the element is larger, it will be in front of any element with a smaller z-index. Good for a sticky header */
-
+    list-style-type: none;
 }
 
 .navbar_container {
@@ -23,7 +23,7 @@ body {
     width: 100%;
     max-width: 1300px;      
     padding: 0 50px;    /*to not be too close to the sides of the screen*/
-
+    list-style-type: none;
 }
 
 #navbar_logo {      /*theCoderSchool title at the top of the navigation menu*/
@@ -35,7 +35,7 @@ body {
 
     display: flex;
     align-items: center;
-    font-size: 2rem;  
+    font-size: 1.25rem;  
 }
 
 .fa-code {  
@@ -58,29 +58,11 @@ body {
     display: flex;
     text-decoration: none;  /*gets rid of the underline of the URL*/
     padding: 0 2rem;
-    
-}
-
-.navbar_button {
-    list-style-type: none;
-    display: flex;
-
-    text-decoration: none;
-    padding: 10px 20px;
-    width: 70%;
-    border-radius: 5px;
-    background: #19cc66;
-    color: #ffffff;
-
-}
-
-.navbar_button:hover {
-    background: #a8eb3c;
-    transition: all 0.4s ease;
+    line-height: 40px;
 }
 
 .navbar_link:hover {
-    color:#e5ff70;
+    color:#70ff75;
     transition: all 0.4s ease;
 }
 
@@ -103,12 +85,12 @@ body {
         top: -300px;
         opacity: 0;
         transition: all 0.4s ease;
-        background: #74e448;
+        background: rgb(27, 8, 27);
 
     }
 
     .navbar_menu.active {      /*The black background of the slide-down action*/
-        background: #000000;
+        background: radial-gradient(black, rgb(27, 8, 27));
         top: 100%;
         opacity: 1;
         transition: all 0.3s ease;

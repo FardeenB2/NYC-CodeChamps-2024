@@ -183,7 +183,7 @@ body {
 .slogans_content h2 {
     font-size: 2.5rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #77d6ff 0%, #3a09ff 100%);
+    background-image: linear-gradient(to top, #77d6ff 0%, #3fa246 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -227,3 +227,15 @@ body {
     width: 100%;    /*how much of button is covered by transition effect*/
 }
 
+
+  .imgcard {
+    width: 300px;
+  background: #00ffa0;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+  }
+
+  .aboutimg{
+    width: 300px;
+    border-radius: 1rem;
+  }

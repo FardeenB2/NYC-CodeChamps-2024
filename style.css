@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     width: 70%;
-    border-radius: 10px;
+    border-radius: 5px;
     background: #19cc66;
     color: #ffffff;
 
@@ -171,7 +171,7 @@ body {
 .tcs-logo {
     width: 400px;
     height: 400px;
-    background-image: url("/TCS-Code-Champs/assets/logo.png");
+    background-image: url("/assets/tcslogo.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

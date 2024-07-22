@@ -1,5 +1,6 @@
 body {
-    font-family: 'Sofia', sans-serif;
+    margin: 0;          /*border fill*/
+    font-family: 'Kumbh Sans', sans-serif;
 
 }
 
@@ -137,6 +138,8 @@ body {
 
     .navbar_toggle .bar{       /*it's the three row horizontaal lines that allows you to surf through stuff*/ 
         display: block;
+        cursor: pointer;
+
     }
 
     #mobile-menu.is-active .bar:nth-child(2) {  /*allows animation of the toggle horizontal lines menu icon to turn into an X button*/
@@ -157,12 +160,13 @@ body {
 
 .slogans_container {
     display: grid;
+    background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%);
+
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #6acb89;
     padding: 0 50px;
 }
 

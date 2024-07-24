@@ -363,7 +363,7 @@ body {
 .slogans_container {
     display: grid;
     /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     height: 90vh;
@@ -463,4 +463,11 @@ body {
   
   .fade-on-scroll.is-visible {
     opacity: 1; /* Fully visible on scroll */
+  }
+  
+  .centerdiv{
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    width:;
   }

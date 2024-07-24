@@ -342,27 +342,35 @@ body {
 }
 
 .tcs-logo {
-    width: 400px;
-    height: 400px;
-    background-image: url("/assets/tcslogo.png");
+    width: 600px;
+    height: 600px;
+    background-image: url("/assets/The.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     z-index: 20;
 }
 
 /*-------- slogans section ---------*/
 
+.divider{
+    margin-top: 200px;
+}
+
 .slogans_container {
     display: grid;
     /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
-
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
     height: 90vh;
     padding: 0 50px;
     margin-bottom: 50px;
+}
+
+.slogan_container > div{
+    text-align: center;
+    padding: 20px 0;
 }
 
 .slogans_content h1 {
@@ -420,14 +428,36 @@ body {
 }
 
 
-  .imgcard {
-    width: 300px;
-  background: #00ffa0;
-  border-radius: 1rem;
-  margin-bottom: 20px;
-  }
+  
 
   .aboutimg{
     width: 300px;
     border-radius: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .paracard{
+    width: 400px;
+    background-color: #00ffa0;
+    border-radius: 1rem;
+    position: relative;
+  }
+  .white{
+    color: white;
+  }
+  .aboutdesc{
+    display: inline-flexbox;
+    color: white;
+    width: 400px;
+    float: right;
+    margin-right: 300px;
+    
+  }
+  .fade-on-scroll {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Set transition for smooth fade */
+  }
+  
+  .fade-on-scroll.is-visible {
+    opacity: 1; /* Fully visible on scroll */
   }

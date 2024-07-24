@@ -2,6 +2,7 @@ body {
     margin: 0;          /*border fill*/
     font-family: 'Kumbh Sans', sans-serif;
     background: radial-gradient(black, rgb(27, 8, 27));
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -253,6 +254,7 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     top: 450px;
+    right: 2000px;
     animation: carRotate 10s ease-in-out 0s infinite;
     animation-delay: 3s;
     z-index: 10;
@@ -262,6 +264,7 @@ body {
     background-image: url("/assets/smoke.png");
     width: 300px;
     height: 300px;
+    right: 2000px;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;

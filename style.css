@@ -536,3 +536,11 @@ body {
 .fsize{
     font-size: 10%;
 }
+.sponsorscontainer{
+    display: block;
+    color:darkgrey;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    width: 1000px;
+    height: 200px;
+}

@@ -363,7 +363,7 @@ body {
 .slogans_container {
     display: grid;
     /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.6fr;
     align-items: center;
     justify-self: center;
     padding: 0 50px;
@@ -391,7 +391,7 @@ body {
 }
 
 .slogans_content h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
 }
 
@@ -463,15 +463,12 @@ body {
   .fade-on-scroll.is-visible {
     opacity: 1; /* Fully visible on scroll */
   }
-<<<<<<< HEAD
   
   .centerdiv{
     margin:auto;
     align-items: center;
     text-align: center;
-    width:;
   }
-=======
 
   /* FAQ */
 
@@ -536,4 +533,6 @@ body {
 #faq-open {
     height: 100px !important;
 }
->>>>>>> bfc671071e091ad61f22c753f709a02f24d58db6
+.fsize{
+    font-size: 10%;
+}

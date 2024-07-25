@@ -537,10 +537,17 @@ body {
     font-size: 10%;
 }
 .sponsorscontainer{
-    display: block;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     color:darkgrey;
     border: 3px solid darkgray;
     border-radius: 5px;
     width: 1000px;
     height: 200px;
+    padding: 3%;
+    content:icon;
+    column-gap: 20px;
+}
+.sponsorsimg{
+    width:50%;
 }

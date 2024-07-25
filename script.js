@@ -7,6 +7,20 @@ document.addEventListener("DOMContentLoaded", function() {
       menuLinks.classList.toggle('active');       //if toggle is clicked, this enables the revealing or concealing of the menu.
   });
 
+   // Function to add smooth scroll event listeners
+function addScrollListener(linkId, sectionId) {
+  document.getElementById(linkId).addEventListener("click", function(event) {
+  event.preventDefault();
+  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+});
+}
+ // Add event listeners to each link
+addScrollListener("linkAbout", "About");
+addScrollListener("linkTracks", "Tracks");
+addScrollListener("linkFAQs", "FAQs");
+addScrollListener("linkSponsors", "Sponsors");
+
+
   const faqQuestions = document.getElementsByClassName('faq-text-container')
   Array.from(faqQuestions).forEach(function(qst) {
     qst.addEventListener('click', function(e) {

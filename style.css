@@ -332,6 +332,17 @@ body {
 
 /*-------- logo ---------*/
 
+/* INFO */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin-top: -50px;
+}
+
 .tcs-logo-container {
     width: 100%;
     height: 400px;
@@ -731,4 +742,5 @@ body {
     animation: bounce 3s linear infinite;
 
  }
+ 
  

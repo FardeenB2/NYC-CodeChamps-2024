@@ -31,23 +31,34 @@
                     <span class="bar"></span>
                 </div>
                 <ul class="navbar_menu"> <!--unordered menu list-->
-                    <p class="navbar_item">
-                        <a href="/index.html" class="navbar_link"> Headquarters</a> <!--Home page-->
-                    </p>
-                    <p class="navbar_item">
-                        <a href="/index.html" class="navbar_link"> Hacker Lab</a>
-                        <!--The different tracks or themes or types of projects, whatever etc.-->
-                    </p>
-                    <p class="navbar_item">
-                        <a href="/index.html" class="navbar_link"> FAQs</a> <!--Questions and contact-->
-                    </p>
-                    <p class="navbar_item">
-                        <a href="/index.html" class="navbar_link"> Main Website</a> <!--Questions and contact-->
-                    </p>
+                    <li class="navbar_item">
+                        <a href="/index.html" id="linkHeadquarters" class="navbar_link"> Home</a>      <!--Home page-->
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/index.html" id="linkAbout"  class="navbar_link"> About</a>      <!--The different tracks or themes or types of projects, whatever etc.-->
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/index.html" id="linkTracks"  class="navbar_link"> Tracks</a>      <!--The different tracks or themes or types of projects, whatever etc.-->
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/index.html" id="linkFAQs" class="navbar_link"> FAQs</a>      <!--Questions and contact-->
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/index.html" id="linkSponsors"  class="navbar_link"> Sponsors</a>      <!--The different tracks or themes or types of projects, whatever etc.-->
+                    </li>
+                    <li class="navbar_item">
+                        <a href="https://www.thecoderschool.com/" id="linkMainWebsite" target="blank" class="navbar_link"> Main Website</a>      <!--Questions and contact-->
+                    </li>
+     
                 </ul>
             </div>
         </nav>
     </header>
+
+    <div class="wave">
+        <img src="/assets/waveback.png" alt="wave" class="wave-img">
+    </div>
+
     <div class="tcs-logo-container">
         <div class="tcs-logo">
         </div>
@@ -70,40 +81,25 @@
         
     </div>
 
-    <h3 id="sched"> Hackathon Schedule</h3>
-    <table class="tabledesign" bgcolor="black">
-        <tr bgcolor="grey">
-          <th>Hours</th>
-          <th>Activity</th>
-        </tr>
-        <tr class = "schedOptions">
-          <td>7:00am</td>
-          <td>Hackathon day begins.</td>
-        </tr>
-        <tr class = "schedOptions">
-            <td>7:30am</td>
-            <td>Workshop 1 begins.</td>
-          </tr>
-          <tr class = "schedOptions">
-            <td>8:30am</td>
-            <td>Workshop 2 begins.</td>
-          </tr>
-          <tr class = "schedOptions">
-            <td>9:30am</td>
-            <td>Workshop 3 begins.</td>
-          </tr>
-          <tr class = "schedOptions">
-            <td>6:30am</td>
-            <td>Winners announced.</td>
-          </tr>
-      </table>
       
       <div class="overtimer">
         <img src="/assets/countdownTimer.png" alt="countdown timer">
         <div class="centeredText"></div>
         <p id="timer"></p>
+        <p id="countdowntitle"> Countdown to Code: </p>
+
+        <div class="floof">
+            <img src="/assets/floof.png" alt="floof background" class="floof-img">
+        </div>
 
     </div>
+    
+    <div class="schedule">
+        <img src="/assets/schedhack.png" alt="schedule" class="sched-img">
+
+    </div>
+
+    
 
 
 
@@ -116,9 +112,18 @@
                     Release your skills, fuel your enthusiasm, and together let's create the future!
                     Let's get hacking!
                 </h3>
+
+                <div class="circuit">
+                    <img src="/assets/circuitback.png" alt="circuit background" class="circuit-img">
+                </div>
+   
+
+
                 <button class="get_started_btn"><a href="/index.html">Let's Get Started!</a></button>
                 <!--This will send us down to the About section (I don't think we are creating registration on this site, not sure yet tho)-->
                 <!-- Aminated -->
+
+                
             </div>
             <div class="lines">
                 <div class="line" id="l1"></div>
@@ -128,6 +133,8 @@
                 <div class="line" id="l5"></div>
                 <div class="line" id="l6"></div>
             </div>
+
+            
 
             <div class="rocket">
             </div>
@@ -143,6 +150,8 @@
             <h1>
                 About
             </h1>
+
+            
         </div>
         <div class="slogans_content">
         </div>
@@ -211,6 +220,7 @@
                     THIS IS A SAMPLE TEXT.
                 </div>
             </div>
+
         </div>
         <div class="faq-text-container" id="faq-close">
             <div class="faq-question">
@@ -270,5 +280,30 @@
         </div>
     </div>
     <script src="script.js"></script> <!--link js file to this html file-->
+
+
+    <div class="slogans_container">
+        <h1></h1>
+    </div>
+ 
+    
+ 
+    <div id="Tracks" class="section">
+        <h2> Tracks</h2>
+    </div>
+    <div id="FAQs" class="section">
+        <h2> FAQs</h2>
+    </div>
+
+    <div id="Sponsors" class="section">
+        <h2> Sponsors</h2>
+    </div>
+
+    <div class="wave">
+        <img src="/assets/waveback.png" alt="wave" class="wave-img">
+    </div>
+
+
+ 
 </body>
 </html>

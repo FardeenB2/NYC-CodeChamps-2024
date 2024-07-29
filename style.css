@@ -377,7 +377,7 @@ body {
 
 .slogans_content h1 {
     font-size: 5rem;
-    background-image: linear-gradient(to top, #f85085 0%, #6445c0 100%);
+    background-image: linear-gradient(to top,#77d6ff 0%, #3fa246 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -397,7 +397,7 @@ body {
 
 .get_started_btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #77d6ff 0%, #3fa246 100%);
     padding: 14px 32px;
     color: #fff;
     margin-top: 2rem;

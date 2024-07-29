@@ -374,7 +374,7 @@ body {
 .slogans_container {
     display: grid;
     /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.6fr;
     align-items: center;
     justify-self: center;
     padding: 0 50px;
@@ -389,7 +389,7 @@ body {
 
 .slogans_content h1 {
     font-size: 5rem;
-    background-image: linear-gradient(to top, #f85085 0%, #6445c0 100%);
+    background-image: linear-gradient(to top,#77d6ff 0%, #3fa246 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -412,7 +412,7 @@ body {
 }
 
 .slogans_content h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
 }
 
@@ -460,7 +460,7 @@ body {
 
 .get_started_btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #77d6ff 0%, #3fa246 100%);
     padding: 14px 32px;
     color: #fff;
     margin-top: 2rem;
@@ -527,6 +527,12 @@ body {
   .fade-on-scroll.is-visible {
     opacity: 1; /* Fully visible on scroll */
   }
+  
+  .centerdiv{
+    margin:auto;
+    align-items: center;
+    text-align: center;
+  }
 
   /* FAQ */
 
@@ -591,6 +597,7 @@ body {
 #faq-open {
     height: 100px !important;
 }
+<<<<<<< HEAD
 
 
 
@@ -744,3 +751,23 @@ body {
  }
  
  
+=======
+.fsize{
+    font-size: 10%;
+}
+.sponsorscontainer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    color:darkgrey;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    width: 1000px;
+    height: 200px;
+    padding: 3%;
+    content:icon;
+    column-gap: 20px;
+}
+.sponsorsimg{
+    width:50%;
+}
+>>>>>>> jeff

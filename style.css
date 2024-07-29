@@ -538,3 +538,69 @@ body {
 #faq-open {
     height: 100px !important;
 }
+
+
+
+#timer {
+    color:#32ebb3;
+    font-size: 3rem;
+ }
+ #sched {
+    color:#32ebb3;
+    font-size: 2rem;
+ }
+ .schedHeader {
+    color:#0ec42a;
+    font-size: 2rem;
+ }
+ .schedOptions {
+    color:#27aada;
+    font-size: 1rem;
+ }
+ .tabledesign {
+    background-color: black;
+ }
+ .schedOptions {
+    background-color: white;
+ }
+
+ .overtimer {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+ 
+ 
+ }
+ 
+ 
+  .overtimer img {
+    max-width: 71%;
+    height: auto;
+    z-index: 1;
+  }
+ 
+ 
+  .centeredText {
+    position: absolute;
+    top: 41%;
+    left: 40%;
+    transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
+    color: rgb(13, 57, 177);
+    font-size: 4vw; /* Scale the font size with the viewport width no matter how small the screen gets */
+    text-align: center; /* Center-align the text */
+  }
+ 
+ 
+  #timer {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
+    color: rgb(103, 20, 141);
+    font-size: 3vw; /* Scale the font size with the viewport width no matter how small the screen gets */
+    text-align: center; /* Center-align the text */
+    z-index: 999;
+  }
+ 
+ 

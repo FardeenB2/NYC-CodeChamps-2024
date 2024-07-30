@@ -244,7 +244,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);  
 }
-    
+
 @keyframes drop {
     0% {
         top: -50%;
@@ -253,7 +253,6 @@ body {
         top: 100%;
     }
 }
-
 .rocket {
     background-image: url("/assets/rocket.png");
     width: 400px;
@@ -494,6 +493,7 @@ body {
 
 
 .get_started_btn {
+    border-radius: 15px;
     font-size: 1rem;
     background-image: linear-gradient(to top, #77d6ff 0%, #3fa246 100%);
     padding: 14px 32px;
@@ -527,7 +527,7 @@ body {
     height: 100%;
     background: #4837ff;    /*hover effect on button*/
     transition: all 0.275s;
-    border-radius: 4px;
+    border-radius: 14px;
 }
 
 .get_started_btn:hover {
@@ -537,6 +537,9 @@ body {
 .get_started_btn:hover:after {   
     width: 100%;    /*how much of button is covered by transition effect*/
 }
+
+
+  
 
   .aboutimg{
     width: 300px;
@@ -643,6 +646,7 @@ body {
 
 
  .overtimer {
+    padding-bottom: 20px;
     position: relative;
     display: inline-block;
     max-width: 100%;
@@ -673,7 +677,7 @@ body {
     top: 35%;
     left: 55%;
     transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
-    color: rgb(103, 20, 141);
+    color: rgb(91, 141, 20);
     font-size: 3vw; /* Scale the font size with the viewport width no matter how small the screen gets */
     text-align: center; /* Center-align the text */
     z-index: 999;
@@ -684,7 +688,7 @@ body {
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
-    color: rgb(235, 191, 255);
+    color: rgb(191, 255, 200);
     font-size: 4vw; /* Scale the font size with the viewport width no matter how small the screen gets */
     text-align: center; /* Center-align the text */
     z-index: 999;
@@ -711,6 +715,24 @@ body {
     z-index: 2;
 }
 
+.sponsorscontainer{
+    display: block;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    color:darkgrey;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    width: 1000px;
+    height: 200px;
+    padding: 3%;
+    content:icon;
+    column-gap: 20px;
+}
+.sponsorsimg{
+    width:50%;
+    padding-left: 60px;
+}
+
 #About {
     color: red;
     text-align: left;
@@ -730,6 +752,7 @@ body {
  }
 
  .wave-img {
+    display: block;
     z-index: 1;
     position: absolute;
     opacity: 0.25;
@@ -743,11 +766,14 @@ body {
  }
 
  .floof-img {
+    width: 80%;
     z-index: 1;
     position: absolute;
     opacity: 0.25;
  }
-
+.floof{
+    padding-left: 90px;
+}
  .computer-img {
     z-index: 1;
     position: absolute;
@@ -792,7 +818,10 @@ body {
     animation: bounce 3s linear infinite;
 
  }
+<<<<<<< HEAD
 
  #slogan-h1 {
      margin-top: 50px;
  }
+=======
+>>>>>>> jeff

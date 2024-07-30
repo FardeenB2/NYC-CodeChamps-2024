@@ -98,6 +98,3 @@ if (distance < 0) {
   document.getElementById("timer").innerHTML = "EXPIRED";
 }
 }, 1000);
-
-
-

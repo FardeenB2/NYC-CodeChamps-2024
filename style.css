@@ -82,6 +82,22 @@ body {
         transition: all 1s;
     }
 
+    .aboutimg {
+        margin-top: 50px;
+        width: 200px !important;
+    }
+    
+    .slogans_container {
+        width: 500px !important;
+        font-size: 12px;
+    }
+
+    #slg-text {
+        width: 200px !important;
+        font-size: 14px !important;
+        height: 200px;
+    }
+
     .navbar_menu {
         display: grid;              /*lists the dropdown menu items in dropdown form*/
         margin: 0;
@@ -376,18 +392,27 @@ body {
     margin-top: 0px;
 }
 
+.slogans-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .slogans_container {
     display: grid;
     /* background-image: linear-gradient(to bottom, #4ce787 1%, #000000 20%); */
     grid-template-columns: 1fr 1.6fr;
+    width: 1000px;
     align-items: center;
-    justify-self: center;
-    padding: 0 50px;
 }
 
 .slogan_container > div{
     text-align: center;
     padding: 20px 0;
+}
+
+.abtimgdiv {
+    width: 300px;
 }
 
 .slogans_content h1 {
@@ -431,7 +456,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   /*centers button along with top and left*/
+    border: none;
+    border-radius: 10px;
+    z-index: 100;
+}
 
+.Register-Now:hover {
+    cursor: pointer;
 }
 
 .Register-Now a {
@@ -694,6 +725,9 @@ body {
     color:#ff8177;
  }
 
+ .sponsorscontainer {
+     margin-bottom: 100px;
+ }
 
  .wave-img {
     z-index: 1;

@@ -1,3 +1,7 @@
+html {
+    scrollbar-color: rgba(103, 33, 103, 0.199) transparent;
+}
+
 body {
     margin: 0;          /*border fill*/
     font-family: 'Kumbh Sans', sans-serif;

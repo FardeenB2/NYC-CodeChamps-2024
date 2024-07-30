@@ -467,6 +467,11 @@ body {
     position: relative;
     transition: all 0.35s;
 
+    position: relative;
+    z-index: 2;
+    color: #fff;    /*get started font color*/
+    text-decoration: none;
+
 }
 
 .get_started_btn a {          /*--gets rid of underline in the 'get started' button and changes font color*/
@@ -746,4 +751,15 @@ body {
 
     animation: bounce 3s linear infinite;
 
+ }
+
+ .tracks-img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    
  }

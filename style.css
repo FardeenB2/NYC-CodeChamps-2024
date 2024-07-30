@@ -77,6 +77,11 @@ body {
         padding: 0;
     }
 
+    .schedule {
+        top: -150px !important;
+        transition: all 1s;
+    }
+
     .navbar_menu {
         display: grid;              /*lists the dropdown menu items in dropdown form*/
         margin: 0;
@@ -367,7 +372,7 @@ body {
 /*-------- slogans section ---------*/
 
 .divider{
-    margin-top: 200px;
+    margin-top: 0px;
 }
 
 .slogans_container {
@@ -377,8 +382,6 @@ body {
     align-items: center;
     justify-self: center;
     padding: 0 50px;
-    margin-bottom: 50px;
-
 }
 
 .slogan_container > div{
@@ -397,6 +400,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 0px;
     align-items: center;
     z-index: 1;
 }
@@ -466,8 +470,15 @@ body {
     margin-top: 2rem;
     position: relative;
     transition: all 0.35s;
-
+    border-radius: 5px;
+    border: none;
+    
+    position: relative;
+    z-index: 2;
+    color: #fff;    /*get started font color*/
+    text-decoration: none;
 }
+
 
 .get_started_btn a {          /*--gets rid of underline in the 'get started' button and changes font color*/
     position: relative;
@@ -488,10 +499,17 @@ body {
     border-radius: 14px;
 }
 
+.get_started_btn:hover {
+    cursor: pointer;
+}
 
-.get_started_btn:hover:after {    
+.get_started_btn:hover:after {   
     width: 100%;    /*how much of button is covered by transition effect*/
 }
+
+
+  
+
   .aboutimg{
     width: 300px;
     border-radius: 1rem;
@@ -533,8 +551,6 @@ body {
   /* FAQ */
 
 .faq-container {
-      padding-top: 50px;
-      padding-bottom: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -549,7 +565,9 @@ body {
     border-radius: 5px;
     color: white;
     user-select: none;
+    transition: height .25s !important;
 }
+
 
 .faq-question {
     height: 50px;
@@ -583,7 +601,7 @@ body {
 }
 
 #faq-close {
-    height: 50px !important;
+    height: 50px;
 }
 
 #faq-closed-text {
@@ -591,7 +609,7 @@ body {
 }
 
 #faq-open {
-    height: 100px !important;
+    height: 100px;
 }
 
 
@@ -602,7 +620,6 @@ body {
     display: inline-block;
     max-width: 100%;
     text-align: center;
-
  }
  
  
@@ -653,6 +670,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: -350px;
  }
 
 

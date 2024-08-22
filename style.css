@@ -501,21 +501,13 @@ body {
     margin-top: 2rem;
     position: relative;
     transition: all 0.35s;
-<<<<<<< HEAD
     border-radius: 5px;
     border: none;
     
-=======
-
->>>>>>> fardeen
     position: relative;
     z-index: 2;
     color: #fff;    /*get started font color*/
     text-decoration: none;
-<<<<<<< HEAD
-=======
-
->>>>>>> fardeen
 }
 
 
@@ -713,15 +705,26 @@ body {
  }
 
 
-.sched-img {
+ .sched-img {
     max-width: 120%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Higher z-index */
 }
+
+.track-img {
+    max-width: 120%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Lower z-index */
+}
+
 
 .sponsorscontainer{
     display: block;
@@ -739,6 +742,10 @@ body {
 .sponsorsimg{
     width:50%;
     padding-left: 60px;
+
+    height: 100px; /* Set the desired height */
+    object-fit: contain; /* Ensures the image scales properly within the container */
+    
 }
 
 #About {
@@ -826,16 +833,12 @@ body {
     animation: bounce 3s linear infinite;
 
  }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
  #slogan-h1 {
      margin-top: 50px;
  }
-=======
->>>>>>> jeff
-=======
+
 
  .tracks-img {
     max-width: 100%;
@@ -847,6 +850,3 @@ body {
     z-index: 2;
     
  }
->>>>>>> fardeen
-=======
->>>>>>> jeff

@@ -16,9 +16,9 @@ function addScrollListener(linkId, sectionId) {
 }
  // Add event listeners to each link
 addScrollListener("linkAbout", "About");
-addScrollListener("linkTracks", "Tracks");
-addScrollListener("linkFAQs", "FAQs");
-addScrollListener("linkSponsors", "Sponsors");
+addScrollListener("linkTracks", "trackid");
+addScrollListener("linkFAQs", "FAQ");
+addScrollListener("linkSponsors", "sponsor");
 
 
   const faqQuestions = document.getElementsByClassName('faq-text-container')

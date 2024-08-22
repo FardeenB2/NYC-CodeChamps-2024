@@ -706,6 +706,7 @@ body {
 
 
  .sched-img {
+    margin-top: -30%;
     max-width: 120%;
     height: auto;
     display: flex;
@@ -713,9 +714,12 @@ body {
     align-items: center;
     position: relative;
     z-index: 2; /* Higher z-index */
+
 }
 
 .track-img {
+    margin-top: 20%; /* Adds space below the image */
+
     max-width: 120%;
     height: auto;
     display: flex;
@@ -723,6 +727,7 @@ body {
     align-items: center;
     position: relative;
     z-index: 1; /* Lower z-index */
+    margin-bottom: -10%;
 }
 
 
@@ -792,9 +797,9 @@ body {
  .computer-img {
     z-index: 1;
     position: absolute;
-    width: 35%;
+    width: 25%;
     
-    top: 50%;
+    top: 30%;
     left: 27%;
     transform: translate(-50%,-50%);
 

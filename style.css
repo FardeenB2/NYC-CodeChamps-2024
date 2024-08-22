@@ -458,6 +458,7 @@ body {
     border: none;
     border-radius: 10px;
     z-index: 100;
+
 }
 
 .Register-Now:hover {
@@ -508,6 +509,9 @@ body {
     z-index: 2;
     color: #fff;    /*get started font color*/
     text-decoration: none;
+
+
+    
 }
 
 
@@ -516,6 +520,7 @@ body {
     z-index: 2;
     color: #fff;    /*get started font color*/
     text-decoration: none;
+
 }
 
 .get_started_btn:after {
@@ -528,14 +533,17 @@ body {
     background: #4837ff;    /*hover effect on button*/
     transition: all 0.275s;
     border-radius: 14px;
+    
 }
 
 .get_started_btn:hover {
     cursor: pointer;
+    
 }
 
 .get_started_btn:hover:after {   
     width: 100%;    /*how much of button is covered by transition effect*/
+    
 }
 
 
@@ -820,7 +828,7 @@ body {
 
 }
  .computer-img {
-    z-index: 1;
+    z-index: -10;
     position: absolute;
     width: 25%;
     
@@ -828,7 +836,33 @@ body {
     left: 27%;
     transform: translate(-50%,-50%);
 
-    animation: bounce 3s linear infinite;
+    animation: bounce 2s linear infinite;
+
+ }
+
+ .computer2-img {
+    z-index: -10;
+    position: absolute;
+    width: 25%;
+    
+    top: 720%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+
+    animation: bounce 1s linear infinite;
+
+ }
+
+ .circuitb-img {
+    z-index: -10;
+    position: absolute;
+    width: 20%;
+    
+    top: 205%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+
+    animation: bounce 2s linear infinite;
 
  }
 

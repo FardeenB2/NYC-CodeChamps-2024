@@ -415,7 +415,7 @@ body {
 }
 
 .slogans_content h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     background-image: linear-gradient(to top,#77d6ff 0%, #3fa246 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -431,7 +431,7 @@ body {
 }
 
 .slogans_content h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #77d6ff 0%, #3fa246 100%);
     -webkit-background-clip: text;
@@ -677,21 +677,26 @@ body {
     top: 35%;
     left: 55%;
     transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
-    color: rgb(91, 141, 20);
+    color: rgb(161, 5, 80);
     font-size: 3vw; /* Scale the font size with the viewport width no matter how small the screen gets */
     text-align: center; /* Center-align the text */
     z-index: 999;
+    font-family: "Montserrat", sans-serif;
+
   }
 
   #countdowntitle {
     position: absolute;
-    top: 18%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);  /*with position absolute, centers horizontally and vertically text */
-    color: rgb(191, 255, 200);
-    font-size: 4vw; /* Scale the font size with the viewport width no matter how small the screen gets */
+    color: rgb(255, 82, 145);
+    font-size: 5vw; /* Scale the font size with the viewport width no matter how small the screen gets */
     text-align: center; /* Center-align the text */
     z-index: 999;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+
   }
 
   .schedule {       /*container for schedule and computer image*/
@@ -718,7 +723,7 @@ body {
 }
 
 .track-img {
-    margin-top: 20%; /* Adds space below the image */
+    margin-top: 27%; /* Adds space below the image */
 
     max-width: 120%;
     height: auto;
@@ -875,3 +880,8 @@ body {
     z-index: 2;
     
  }
+.slogans_content {
+    font-family: "Montserrat", sans-serif;
+    margin: 100;
+
+}

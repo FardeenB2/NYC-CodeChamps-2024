@@ -707,7 +707,7 @@ body {
 
  .sched-img {
     margin-top: -30%;
-    max-width: 120%;
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -778,6 +778,18 @@ body {
     opacity: 0.25;
  }
 
+ .wave-2 {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    margin-top: -50%;
+    opacity: 0.25;
+    margin-left: -20%;
+    
+
+
+ }
+
  .circuit-img {
     z-index: 1;
     width: 100%;
@@ -794,12 +806,20 @@ body {
 .floof{
     padding-left: 90px;
 }
+
+.circuitback {
+    width: 80%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.25;
+
+}
  .computer-img {
     z-index: 1;
     position: absolute;
     width: 25%;
     
-    top: 30%;
+    top: 35%;
     left: 27%;
     transform: translate(-50%,-50%);
 

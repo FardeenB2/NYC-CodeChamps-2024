@@ -53,7 +53,7 @@ addScrollListener("linkSponsors", "Sponsors");
 
 //Countdown timer:
 // Set the date we're counting down to
-var countDownDate = new Date("September 29, 2024 0:00:00").getTime();
+var countDownDate = new Date("October 27, 2024 0:00:00").getTime();
 
 
 

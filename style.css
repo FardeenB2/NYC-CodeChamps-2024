@@ -254,7 +254,7 @@ body {
     }
 }
 .rocket {
-    background-image: url("/assets/rocket.png");
+    background-image: url("./assets/rocket.png");
     width: 400px;
     height: 400px;
     background-size: contain;
@@ -267,7 +267,7 @@ body {
 }
 
 .car {
-    background-image: url("/assets/car.png");
+    background-image: url("./assets/car.png");
     width: 200px;
     height: 200px;
     background-size: contain;
@@ -281,7 +281,7 @@ body {
 }
 
 .smoke {
-    background-image: url("/assets/smoke.png");
+    background-image: url("./assets/smoke.png");
     width: 300px;
     height: 300px;
     right: 2000px;
@@ -378,7 +378,7 @@ body {
 .tcs-logo {
     width: 600px;
     height: 600px;
-    background-image: url("/assets/The.png");
+    background-image: url("./assets/The.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
